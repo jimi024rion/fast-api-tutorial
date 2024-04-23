@@ -2,8 +2,7 @@
 
 ローカルサーバを起動したいとき
 ```bash
-cd src
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 postgresのDBに接続したい
